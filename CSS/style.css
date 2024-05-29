@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* La barre de navigation */
+.logo {
+    margin-left: 150px;
+}
+
+.Bouton1 {
+    width: 230px;
+    height: 40px;
+    padding: 4px;
+    border-color: rgba(0, 94, 235, 0.874);
+    border-width: 2px;
+    font-weight: 500;
+    margin-right: 150px;
+    background-color: white;
+    border-radius: 10px
+}
+
+.Bouton1:hover {
+    color: black;
+    border-color: black;
+    transition: 0.4s ease-in-out;
+}
+
+.line1 {
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px rgb(169, 169, 169);
+    margin-top: 10px;
+}
+
+/* footer */
+.line2 {
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px rgb(169, 169, 169);
+    margin-top: 120px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.footertext {
+    margin-left: 130px;
+    font-weight: 500;
+    color: rgb(94, 94, 94);
+}
+
+.footericon {
+    margin-right: 130px;
+}
+
+.fa-brands {
+    color: rgb(94, 94, 94);
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+@media screen and (max-width:1000px) {
+    .logo {
+        margin: 20px;
+    }
+
+    .Bouton1 {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
